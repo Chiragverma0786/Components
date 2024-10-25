@@ -1,0 +1,46 @@
+.toolcard{
+    position: relative;
+    display: flex;
+    align-items: start;
+    /* padding: 1.3rem; */
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.2rem;
+    /* border: 2px solid red; */
+}
+
+.logo{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.logo-title{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.logo-title h3{
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+.logo-para{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+.logo-para p{
+    font-family: sans-serif;
+    font-weight: 200;
+    color: rgba(0, 0, 0, 0.546);
+}

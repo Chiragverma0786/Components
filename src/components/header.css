@@ -1,0 +1,222 @@
+.header{
+    position: relative;
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    overflow-x: hidden;
+    flex-direction: column;
+}
+
+.header img{
+    display: flex;
+    height: 145vh;
+    width: 100%;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+}
+
+.nav{
+    position: relative;
+    width: 80%;
+    height: 4rem;
+    background: rgba(255, 255, 255, 0.31);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.9px);
+    -webkit-backdrop-filter: blur(7.9px);
+    border: 1px solid rgba(255, 255, 255, 0.32);
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 4rem;
+}
+
+.menu{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3.5rem;
+    height: 100%;
+}
+
+.menu a{
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    font-size: 0.9rem;
+    transition: all ease-in-out 0.3s;
+    /* border: 2px solid red; */
+}
+
+.menu a:hover{
+    color: rgb(114, 68, 213);
+}
+
+.menu a li{
+    list-style: none;
+}
+
+.logo{
+    position: relative;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo h2{
+    font-size: 1.5rem;
+}
+
+.mode{
+    height: 60%;
+    width: 30vw;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5rem;
+    border-radius: 50%;
+    transition: all ease-in-out .2s;
+    cursor: pointer;
+}
+
+.modemake{
+    background-color: #fff;
+    position: absolute;
+    /* display: none; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    width: 9rem;
+    top: 140%;
+    border-radius: 10px;
+}
+
+.modemake a{
+    text-decoration: none;
+    color: black;
+    width: 100%;
+    height: 2.5rem;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid grey;
+
+}
+
+.modemake a li{
+    list-style: none;
+}
+
+.mode img{
+    position: relative;
+    object-fit: cover;
+    height: 60%;
+    width: 60%;
+}
+
+.mode:hover{
+    background-color: rgba(128, 128, 128, 0.148);
+}
+
+.mode img:hover::after{
+    content: "Light Mode";
+    top: 120%;
+    position: absolute;
+    border: 2px solid black;
+    background-color: black;
+    color: #fff;
+    width: 5rem;
+    border-radius: 5px;
+    padding: 0.3rem 0.7rem;
+    transition: all ease-in-out 0.4s;
+}
+
+.title{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    width: 45%;
+    margin-top: 3rem;
+    flex-direction: column;
+    color: rgb(140, 87, 255);
+}
+
+.title2{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    width: 45%;
+    margin-top: 1rem;
+    flex-direction: column;
+    color: rgba(0, 0, 0, 0.675);
+}
+
+.title h1{
+    font-size: 2.4rem;
+    font-family: sans-serif;
+}
+.title2 h1{
+    font-size: 1rem;
+    font-family: sans-serif;
+}
+.title2 h2{
+    font-size: 1rem;
+    font-family: sans-serif;
+}
+.title h2{
+    font-size: 2.4rem;
+    font-family: sans-serif;
+}
+
+.bgpics{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    margin-top: 4rem;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+#img1{
+    position: relative;
+    height: 100%;
+    width: 70rem;
+    display: flex;
+    /* border: 2px solid blue; */
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+#img1 img{
+    position: relative;
+    height: 100%;
+    width: 60rem;
+    object-fit: cover;
+    overflow: hidden;
+
+}
+
+#img2{
+    position: absolute;
+    height: 80%;
+    width: 90%;
+    object-fit: cover;
+    overflow: hidden;
+}

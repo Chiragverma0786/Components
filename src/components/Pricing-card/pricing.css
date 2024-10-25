@@ -1,0 +1,162 @@
+.pricing-card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 4vh 2vw;
+    height: 35rem;
+    width: 20rem;
+    border: 1px solid rgba(52, 52, 52, 0.206);
+    background-color: rgb(255, 255, 255);
+    gap: 1.5vh;
+
+}
+
+.title-one{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+.title-two{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: center;
+    font-family: sans-serif;
+    /* border: 2px solid blue; */
+}
+
+.title-two h1{
+    font-family: sans-serif;
+    font-size: 3rem;
+}
+
+.title-two sup{
+    font-weight: 100;
+    font-size: 1.5rem;
+}
+
+.price-title{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.price-title h3{
+    font-family: sans-serif;
+    font-size: 1rem;
+}
+
+.price-title p{
+    font-family: sans-serif;
+    font-size: 0.9rem;
+    font-weight: 100;
+    color: rgba(49, 49, 49, 0.684);
+}
+
+.arrow{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 1rem;
+    padding: 0 2rem;
+}
+
+.arrow img{
+    height: 2.5rem; 
+}
+
+.cover{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: sans-serif;
+    padding: 0 1vw;
+    gap: 1vw;
+}
+
+.title-three{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: flex-start;
+    align-items: start;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.707);
+    padding: 2rem 0;
+}
+
+.style{
+    position: relative;
+    display: flex;
+    width: 100%;
+    gap: 10px;
+}
+
+.style img{
+    height: 1rem;
+    width: 1rem;
+}
+
+.style p{
+    font-family: sans-serif;
+    font-size: 1.2rem;
+}
+
+.title-four{
+    position: relative;
+    display: flex;
+    padding: 1rem 0;
+    justify-content: space-between;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.two-lines{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    gap: 6px;
+}
+
+.two-lines h3{
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.two-lines p{
+    font-size: 0.9rem;
+    font-weight: 100;
+    color: rgba(33, 33, 33, 0.769);
+}
+
+.golbtn{
+    position: relative;
+    background-color: rgb(237, 228, 255);
+    border-radius: 30px;
+    padding: 6px 10px;
+    color: blueviolet;
+}
+
+.golbtn h3{
+    font-size: 0.8rem;
+}
+
+.title-five .btn{
+    position: relative;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.title-five .btn img{
+    display: none;
+}

@@ -1,0 +1,31 @@
+.btn{
+    height: 1.5rem;
+    width: 10rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(140, 87, 255);
+    padding: 0.5rem 0.3rem;
+    border-radius: 7px;
+    gap: 1rem;
+    cursor: pointer;
+    transition: all ease-in-out 0.3s;
+}
+
+.btn img{
+    position: relative;
+    height: 100%;
+    width: 1.4rem;
+    filter: invert(100%);
+}
+
+.btn h2{
+    font-size: 0.9rem;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+.btn:hover{
+    background-color: rgb(117, 68, 223);
+}

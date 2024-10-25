@@ -1,0 +1,79 @@
+.cardka{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 23rem;
+    width: 17rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.person{
+    position: relative;
+    height: 70%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: end ;
+}
+
+.person img{
+    height: 100%;
+    width: 70%;
+    object-fit: cover;
+}
+
+.lower{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+    border-right: 1px  solid rgba(61, 61, 61, 0.301);
+    border-left: 1px  solid rgba(61, 61, 61, 0.301);
+    border-bottom: 1px  solid rgba(61, 61, 61, 0.301);
+    gap: 0.2vh;
+}
+
+.name{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 2rem;
+    font-family: sans-serif;
+    /* border: 2px solid red; */
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.job{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 2rem;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    /* border: 2px solid blue; */
+    font-size: 0.9rem;
+    font-weight: 200;
+    color: rgba(34, 34, 34, 0.585);
+}
+
+.socialmedia{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.socialmedia img{
+    position: relative;
+    height: 1.2rem;
+    width: 1.2rem;
+    object-fit: cover;
+}
